@@ -1,0 +1,30 @@
+title: A Hitchhiker's Guide to functools
+description: Higher-order functions are useful, powerful, and can save a lot of typing. So, of course, Python’s standard library contains a module of higher-order functions waiting to be used
+author: Scott J Irwin
+
+exclude: [ README.md, proposal.md, CC-BY_icon.svg ]
+
+# using parts of jekyll-reveal framework (https://github.com/dploeger/jekyll-revealjs.git)
+reveal_path: reveal.js/
+#reveal_theme_path: reveal.js/css/theme/ 
+reveal_theme_path: theme/ 
+#reveal_theme: white.css
+reveal_theme: white-modified.css
+reveal_notes_server: false
+reveal_transition: slide
+reveal_options: 
+  width: 1152
+  height: 720
+  controlsLayout: edges
+reveal_dependencies: 
+extra_css: styles/bloomberg.css
+highlight_style_sheet: styles/zenburn-dark.css
+
+# leave these three lines alone
+markdown: redcarpet
+highlighter: rouge
+markdown_ext: ignoreme
+
+# Collections
+collections: 
+  - slides

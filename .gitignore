@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+_site/
+
+.jekyll-metadata
+.jekyll-cache/
+
+.DS_Store

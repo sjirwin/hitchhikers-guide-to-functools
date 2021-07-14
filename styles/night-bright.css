@@ -1,0 +1,58 @@
+/* Modified version of Tomorrow Night Bright Theme */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: black;
+  color: #eaeaea;
+}
+
+.hljs-keyword {
+  color: #c397d8;
+}
+
+.hljs-built_in,
+.hljs-literal,
+.hljs-number,
+.hljs-params,
+.hljs-meta,
+.hljs-meta-keyword,
+.hljs-meta-string {
+  color: #e78c45;
+}
+
+.hljs-type {
+  color: #efef8f;
+}
+
+.hljs-regexp,
+.hljs-template-tag,
+.hljs-template-variable {
+  color: #d54e53;
+}
+
+.hljs-string {
+  color: #b9ca4a;
+}
+
+.hljs-subst {
+  color: #8f8f8f;
+}
+
+.hljs-symbol {
+  color: #dca3a3;
+}
+
+.hljs-class,
+.hljs-function,
+.hljs-title {
+  color: #7aa6da;
+}
+
+.hljs-comment,
+.hljs-doctag {
+  color: #969896;
+}

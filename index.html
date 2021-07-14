@@ -1,0 +1,12 @@
+---
+layout: slides
+title: not used. Use _config.yml!
+---
+
+{% for slide in site.slides %}
+<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-notes="^Note:">
+<script type="text/template">
+{{ slide.content }}
+</script>
+</section>
+{% endfor %}

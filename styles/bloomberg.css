@@ -1,0 +1,14 @@
+body > footer {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 25%;
+  height: 8%;
+  text-align: right;
+  font-size: 10px;
+}
+
+body > footer > img {
+  max-width: 95%;
+  max-height: 95%;
+}
