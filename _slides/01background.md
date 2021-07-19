@@ -1,4 +1,0 @@
----
-title: Definitions And Background
----
-

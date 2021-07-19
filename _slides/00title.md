@@ -18,7 +18,7 @@ https://sjirwin.github.io/hitchhikers-guide-to-functools/
 
 ## What We Will Cover
 
-- Definitions and background
+- Definitions and history
 - Simplifying function signatures
 - Function wrappers
 - Caching
