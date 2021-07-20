@@ -3,14 +3,17 @@ title: Function Wrappers
 ---
 
 # Function Wrappers
+- <span style="color:indianred">`wraps`</span>
+- <span style="color:indianred">`update_wrapper`</span>
 
 --
 
 ## `wraps`
 
+- <span style="color:indianred">`wraps(wrapped)`</span>
 - A function decorator used when defining a wrapper function
 - Updates the `wrapper` function attributes to be the same as the `wrapped` function
-- Convenience function defined using <span style="color:indianred">`update_wrapper()`</span>
+- Convenience decorator factory defined using <span style="color:indianred">`update_wrapper()`</span>
 
 --
 
@@ -29,7 +32,7 @@ title: Function Wrappers
 ...     print('func called')
 ```
 ```python
->>> wrapped_func()
+>>> func()
 wrapper called
 func called
 >>> func.__name__
@@ -44,14 +47,14 @@ func called
 
 ```python
 >>> from functools import wraps
->>> def my_decorator(f):
+>>> def my_decorator_wraps(f):
 ...     @wraps(f)
 ...     def wrapper(*args, **kwargs):
 ...         '''wrapper doc string'''
 ...         print('wrapper called')
 ...         return f(*args, **kwargs)
 ...     return wrapper
->>> @my_decorator
+>>> @my_decorator_wraps
 ... def func():
 ...     '''func doc string'''
 ...     print('func called')
@@ -70,6 +73,7 @@ func called
 
 ## `update_wrapper`
 
+- <span style="color:indianred">`update_wrapper(wrapper, wrapped)`</span>
 - Rarely used directly
 - Updates the `wrapper` function attributes to be the same as the `wrapped` function
 - Useful in situations where <span style="color:indianred">`@wraps`</span> cannot be used
@@ -101,4 +105,3 @@ my_capwords
 my_capwords
 'Spam Spam Spam'
 ```
-

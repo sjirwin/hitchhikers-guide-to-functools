@@ -25,3 +25,4 @@ https://sjirwin.github.io/hitchhikers-guide-to-functools/
 - Ordered types
 - Reduce
 - Function overloading
+- Conclusion and references

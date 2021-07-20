@@ -3,11 +3,14 @@ title: Simplifying function signatures
 ---
 
 # Simplifying Function Signatures
+- <span style="color:indianred">`partial`</span>
+- <span style="color:indianred">`partialmethod`</span>
 
 --
 
 ## `partial`
 
+- <span style="color:indianred">`partial(func, *args, **keywords)`</span>
 - Takes as input a function and the arguments to "lock in"
 - Returns a <span style="color:indianred">`partial object`</span> which behaves like the original function called with those arguments already defined
 
@@ -52,6 +55,7 @@ title: Simplifying function signatures
 
 ## `partialmethod`
 
+- <span style="color:indianred">`partialmethod(func, *args, **keywords)`</span>
 - Easiest to think of it as <span style="color:indianred">`partial`</span> for methods
 - From the Python [docs](https://docs.python.org/3/library/functools.html#functools.partialmethod)
 > Returns a new <span style="color:indianred">`partialmethod`</span> descriptor which behaves like <span style="color:indianred">`partial`</span> except that it is designed to be used as a method definition rather than being directly callable.
