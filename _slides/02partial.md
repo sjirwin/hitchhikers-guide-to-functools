@@ -59,7 +59,7 @@ title: Simplifying function signatures
 
 --
 
-## Example
+## Example: `partialmethod`
 
 ```python
 {% include examples/02partial/cell.py %}
