@@ -16,7 +16,7 @@ title: Definitions And History
 
 ## History
 
-- The <span style="color:forestgreen">`functools`</span> module added in Python 2.5 (2006)
+- The <span style="color:forestgreen">`functools`</span> module was added in Python 2.5 (2006)
   - <span style="color:indianred">`wraps`</span>, <span style="color:indianred">`update_wrapper`</span> and <span style="color:indianred">`partial`</span>
 - Additional functions continue to be added
   - Python 3.0: <span style="color:indianred">`reduce`</span> (backported to 2.6)

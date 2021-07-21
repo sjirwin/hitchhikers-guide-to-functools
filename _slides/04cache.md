@@ -14,7 +14,7 @@ title: Caching
 - <span style="color:indianred">`lru_cache(maxsize=128, typed=False)`</span>
 - Wraps a function with a memoizing callable
 - Saves time when an expensive function is sometimes called with the same arguments
-- Caches results of _maxsize_ most recent calls
+- Caches results of most recent _maxsize_ calls
   - **LRU** stands for **L**east **R**ecently **U**sed
 - If _typed_ is set to `True`, function arguments of different types will be cached separately
 
